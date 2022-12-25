@@ -97,7 +97,15 @@ body {
   background-color: whitesmoke;
   height: 6rem;
   margin: 1rem;
+  padding-right: 1rem;
   border-radius: 6px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  font-size: 2rem;
+}
+
+#calculator-display > * {
+  text-align: right;
 }
 
 #control-btns{
